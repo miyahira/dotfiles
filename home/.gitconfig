@@ -1,0 +1,7 @@
+[user]
+	name = Dennis Hughes
+	email = miyahira@miyahira.me
+[color]
+	ui = true
+[http]
+	sslVerify = false

@@ -1,0 +1,6 @@
+defencoding utf-8 
+encoding utf-8 utf-8
+
+startup_message off
+hardstatus alwayslastline "%{= gk}[%m/%d %02c] %{gW} %-w%{= wk}%n %t%{-}%+w %=%{gk}$USER@$HOSTNAME[$LANG] "
+#hardstatus alwayslastline "%{= gk}[%m/%d %02c] %{gW} %-w%{= wk}%n %t%{-}%+w %=%{gk}$USER@$HOSTNAME[$LANG] (%l) "
