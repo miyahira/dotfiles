@@ -12,11 +12,25 @@ set autoindent
 set nowrap
 
 set wrapscan
-
+_
 set wildmenu
 
-" 2: always show status bar
+" Always show status bar
 set laststatus=2 
+
+
+" Search
+namp n nzz
+namp N Nzz
+nmap * *zz
+nmap # #zz
+nmap g* g*zz
+nmap g# g#zz
+
+set hlsearch
+set ignorecase
+set smartcase
+set wrapscan
 
 
 syntax enable
