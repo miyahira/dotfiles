@@ -12,7 +12,7 @@ set autoindent
 set nowrap
 
 set wrapscan
-_
+
 set wildmenu
 
 " Always show status bar
@@ -20,8 +20,8 @@ set laststatus=2
 
 
 " Search
-namp n nzz
-namp N Nzz
+nmap n nzz
+nmap N Nzz
 nmap * *zz
 nmap # #zz
 nmap g* g*zz
