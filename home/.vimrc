@@ -1,7 +1,6 @@
 set fencs=utf-8,sjis
 set enc=utf-8
 
-set number
 
 set tabstop=4
 set shiftwidth=4
@@ -36,6 +35,19 @@ set wrapscan
 syntax enable
 au BufNewFile,BufRead *.ctp  setf php
 
+set number
 " Show invisible chars
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+
+
+
+set nocompatible               " be iMproved
+ 
+" set rtp+=~/.vim/vundle.git/
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+
+Bundle 'gmarik/vundle'
+Bundle 'git-vim'

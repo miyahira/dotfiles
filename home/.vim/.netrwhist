@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/hughes'
+let g:netrw_dirhist_2='/home/hughes/.vim'
+let g:netrw_dirhist_3='/home/hughes/.vim/vundle.git'
+let g:netrw_dirhist_4='/home/hughes/.homesick/repos/dotfiles/home/.vim/vundle.git'
+let g:netrw_dirhist_5='/home/hughes'
+let g:netrw_dirhist_6='/var/www/html/sailor-mbga/fuel'
+let g:netrw_dirhist_7='/home/hughes/.vim'
