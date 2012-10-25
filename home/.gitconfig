@@ -7,3 +7,7 @@
 	sslVerify = false
 [log]
 	date = local
+
+[alias]
+st = status
+co = checkout
