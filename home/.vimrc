@@ -40,7 +40,7 @@ au BufNewFile,BufRead *.ctp  setf php
 set number
 " Show invisible chars
 set list
-set listchars=tab:»-,trail:-,eol:<,extends:»,precedes:«,nbsp:%
+set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
 
 
 
