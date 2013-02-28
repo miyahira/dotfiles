@@ -11,6 +11,7 @@ export PATH=/usr/sbin/:/sbin/:$PATH
 
 # node stuf
 export PATH=$HOME/node_modules/.bin:$PATH
+export PATH=$PATH:/usr/local/bin/node_modules/
 
 # rvm stuf
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.

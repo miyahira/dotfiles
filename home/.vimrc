@@ -53,3 +53,17 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'git-vim'
+Bundle 'ZenCoding.vim'
+Bundle 'ryoppy/vim-scp-upload.vim'
+
+
+let g:vim_scp_configs = {
+\   'sample_server_1' : {
+\       'local_base_path'  : '/var/www/html/sailor/',
+\       'remote_base_path' : '/home/sailor-mbga/webapp/',
+\       'host' : 'sailor',
+\       'user' : 'sailor-mbga',
+\       'pass' : 'aaa',
+\       'port' : '22'
+\   }
+\}

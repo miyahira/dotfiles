@@ -1,13 +1,20 @@
 [user]
-	name = Dennis Hughes
-	email = miyahira@miyahira.me
+    name = Dennis Hughes
+    email = miyahira@miyahira.me
 [color]
-	ui = true
+    ui = true
 [http]
-	sslVerify = false
+    sslVerify = false
 [log]
-	date = local
+    date = local
+
+[tig]
+    show-date = local
 
 [alias]
-st = status
-co = checkout
+    st = status
+    co = checkout
+    ci = commit
+    rb = rebase
+    br = branch
+    dc = diff --cached
