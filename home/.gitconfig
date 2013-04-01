@@ -18,3 +18,5 @@
     rb = rebase
     br = branch
     dc = diff --cached
+[grep]
+    lineNumber = true
