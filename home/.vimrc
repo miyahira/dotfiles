@@ -55,6 +55,7 @@ Bundle 'gmarik/vundle'
 Bundle 'git-vim'
 Bundle 'ZenCoding.vim'
 Bundle 'ryoppy/vim-scp-upload.vim'
+Bundle 'tpope/vim-haml'
 
 
 let g:vim_scp_configs = {
