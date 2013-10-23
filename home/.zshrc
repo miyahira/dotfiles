@@ -7,7 +7,7 @@ export LANG=ja_JP.UTF-8
 export locale=ja_JP.UTF-8
 
 # export PATH=/usr/local/rvm/bin:$PATH
-export PATH=/usr/sbin/:/sbin/:$PATH
+export PATH=/usr/local/bin:/usr/sbin/:/sbin/:$PATH
 
 # node stuf
 export PATH=$HOME/node_modules/.bin:$PATH
@@ -88,6 +88,6 @@ bindkey "\\en" history-beginning-search-forward-end
 setopt complete_aliases     # aliased ls needs if file/dir completions work
 
 
-alias ls='ls --color=auto'
-alias l='ls --color=auto -la'
+alias ls='gls --color=auto'
+alias l='gls --color=auto -la'
 
