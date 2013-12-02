@@ -52,9 +52,9 @@ call vundle#rc()
 
 
 Bundle 'gmarik/vundle'
-Bundle 'git-vim'
+Bundle 'tpope/vim-fugitive'
 Bundle 'ZenCoding.vim'
-Bundle 'ryoppy/vim-scp-upload.vim'
+" Bundle 'ryoppy/vim-scp-upload.vim'
 Bundle 'tpope/vim-haml'
 
 
