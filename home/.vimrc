@@ -56,7 +56,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'ZenCoding.vim'
 " Bundle 'ryoppy/vim-scp-upload.vim'
 Bundle 'tpope/vim-haml'
-
+Bundle 'vcscommand.vim'
 
 let g:vim_scp_configs = {
 \   'sample_server_1' : {
