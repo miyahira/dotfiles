@@ -8,6 +8,13 @@ set softtabstop=4
 set expandtab
 set autoindent
 
+filetype plugin indent on
+syntax enable
+au BufNewFile,BufRead *.ctp  setf php
+au BufNewFile,BufRead *.jade  setf jade
+au BufNewFile,BufRead *.coffee  setf coffee
+
+
 set nowrap
 
 set wrapscan
@@ -34,9 +41,6 @@ set smartcase
 set wrapscan
 
 
-syntax enable
-au BufNewFile,BufRead *.ctp  setf php
-
 set number
 " Show invisible chars
 set list
@@ -46,6 +50,7 @@ set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
 
 set nocompatible               " be iMproved
  
+
 " set rtp+=~/.vim/vundle.git/
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -55,7 +60,7 @@ Plugin 'gmarik/vundle'
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/emmet-vim'
-" Bundle 'ryoppy/vim-scp-upload.vim'
+" Plugin 'ryoppy/vim-scp-upload.vim'
 Plugin 'tpope/vim-haml'
 Plugin 'vcscommand.vim'
 
