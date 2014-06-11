@@ -64,6 +64,9 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'moll/vim-node'
 
+Plugin 'tpope/vim-fugitive'
+Plugin 'mattn/emmet-vim'
+
 Bundle 'scrooloose/syntastic'
 "Bundle 'wookiehangover/jshint.vim"
 "Bundle 'kchmck/vim-coffee-script'
