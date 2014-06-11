@@ -57,12 +57,18 @@ call vundle#rc()
 
 
 Bundle 'gmarik/vundle'
-Bundle 'git-vim'
+"Bundle 'git-vim'
 Bundle 'ZenCoding.vim'
-Bundle 'ryoppy/vim-scp-upload.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'moll/vim-node'
+
+Bundle 'scrooloose/syntastic'
+"Bundle 'wookiehangover/jshint.vim"
+"Bundle 'kchmck/vim-coffee-script'
+
+
 
 let g:vim_scp_configs = {
 \   'sample_server_1' : {
