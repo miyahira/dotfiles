@@ -1,4 +1,3 @@
-
 export LANG=ja_JP.UTF-8
 export locale=ja_JP.UTF-8
 
@@ -22,6 +21,7 @@ SAVEHIST=10000
 # bindkey -e
 setopt hist_ignore_dups     # ignore duplication command history list
 setopt share_history        # share command history data
+setopt ignore_eof
 setopt auto_pushd
 setopt auto_cd
 
