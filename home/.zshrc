@@ -1,6 +1,7 @@
 export LANG=ja_JP.UTF-8
 export locale=ja_JP.UTF-8
 
+source ~/.nvm/nvm.sh
 # rvm stuf
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
@@ -10,6 +11,8 @@ export PATH=/usr/local/bin:/usr/sbin/:/sbin/:$PATH
 # node stuf
 export PATH=$HOME/node_modules/.bin:$PATH
 export PATH=$PATH:/usr/local/bin/node_modules/
+
+export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
 
 
 
@@ -85,7 +88,8 @@ bindkey "\\en" history-beginning-search-forward-end
 setopt complete_aliases     # aliased ls needs if file/dir completions work
 
 
-alias ls='gls --color=auto'
-alias l='gls --color=auto -la'
+alias ls='ls --color=auto'
+alias l='ls --color=auto -la'
+
 
 alias xvn='/Applications/Xcode.app/Contents/Developer/usr/bin/svn'

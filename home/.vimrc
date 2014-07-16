@@ -56,13 +56,22 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 
-Plugin 'gmarik/vundle'
+Bundle 'gmarik/vundle'
+"Bundle 'git-vim'
+Bundle 'ZenCoding.vim'
+Bundle 'tpope/vim-haml'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'moll/vim-node'
 
-Plugin 'tpope/vim-fugitive'
-Plugin 'mattn/emmet-vim'
-" Plugin 'ryoppy/vim-scp-upload.vim'
-Plugin 'tpope/vim-haml'
-Plugin 'vcscommand.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'mattn/emmet-vim'
+
+Bundle 'scrooloose/syntastic'
+"Bundle 'wookiehangover/jshint.vim"
+"Bundle 'kchmck/vim-coffee-script'
+
+
 
 let g:vim_scp_configs = {
 \   'sample_server_1' : {
