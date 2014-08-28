@@ -10,9 +10,9 @@ set autoindent
 
 filetype plugin indent on
 syntax enable
-au BufNewFile,BufRead *.ctp  setf php
-au BufNewFile,BufRead *.jade  setf jade
-au BufNewFile,BufRead *.coffee  setf coffee
+au BufNewFile,BufRead *.ctp setlocal ft=php
+au BufNewFile,BufRead *.jade setlocal ft=jade
+au BufNewFile,BufRead *.coffee setlocal ft=coffee
 
 
 set nowrap
@@ -57,7 +57,6 @@ call vundle#rc()
 
 
 Bundle 'gmarik/vundle'
-"Bundle 'git-vim'
 Bundle 'ZenCoding.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'digitaltoad/vim-jade'
@@ -68,7 +67,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'mattn/emmet-vim'
 
 Bundle 'scrooloose/syntastic'
-"Bundle 'kchmck/vim-coffee-script'
 
 
 
