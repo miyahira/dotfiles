@@ -13,6 +13,7 @@ syntax enable
 au BufNewFile,BufRead *.ctp setlocal ft=php
 au BufNewFile,BufRead *.jade setlocal ft=jade
 au BufNewFile,BufRead *.coffee setlocal ft=coffee
+au FileType haml :setlocal sw=2 sts=2
 
 
 set nowrap
