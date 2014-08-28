@@ -15,6 +15,9 @@ export PATH=$PATH:/usr/local/bin/node_modules/
 export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
 
 
+# haskell stuf
+export PATH=~/.cabal/bin:$PATH
+
 
 
 # Lines configured by zsh-newuser-install

@@ -68,7 +68,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'mattn/emmet-vim'
 
 Bundle 'scrooloose/syntastic'
-"Bundle 'wookiehangover/jshint.vim"
 "Bundle 'kchmck/vim-coffee-script'
 
 
