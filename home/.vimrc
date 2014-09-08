@@ -52,32 +52,24 @@ set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
 set nocompatible               " be iMproved
  
 
-" set rtp+=~/.vim/vundle.git/
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-
-Bundle 'gmarik/vundle'
-Bundle 'ZenCoding.vim'
-Bundle 'tpope/vim-haml'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'moll/vim-node'
-
-Bundle 'tpope/vim-fugitive'
-Bundle 'mattn/emmet-vim'
-
-Bundle 'scrooloose/syntastic'
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 
 
-let g:vim_scp_configs = {
-\   'sample_server_1' : {
-\       'local_base_path'  : '/var/www/html/sailor/',
-\       'remote_base_path' : '/home/sailor-mbga/webapp/',
-\       'host' : 'sailor',
-\       'user' : 'sailor-mbga',
-\       'pass' : 'aaa',
-\       'port' : '22'
-\   }
-\}
+Plugin 'gmarik/Vundle.vim'
+Plugin 'ZenCoding.vim'
+Plugin 'tpope/vim-haml'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'moll/vim-node'
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'mattn/emmet-vim'
+
+Plugin 'scrooloose/syntastic'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+

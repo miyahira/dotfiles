@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/var/www/dev/omojan/fuel/app/views'
-let g:netrw_dirhist_2='/var/www/dev/omojan/fuel/app/views/rooms'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/hughes/.homesick/repos/dotfiles/home'
+let g:netrw_dirhist_2='/Users/hughes/.homesick/repos/dotfiles'
+let g:netrw_dirhist_3='/Users/hughes/.homesick/repos/dotfiles/home'
