@@ -16,9 +16,13 @@ export PATH=$PATH:/usr/local/bin/node_modules/
 case ${OSTYPE} in
     darwin*)
         export PATH=$HOME/.apportable/SDK/bin:$PATH
+        alias ls='gls --color=auto'
+        alias l='gls --color=auto -la'
         ;;
     linux*)
 export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
+        alias ls='ls --color=auto'
+        alias l='ls --color=auto -la'
 
         ;;
 esac
@@ -105,9 +109,6 @@ bindkey "\\en" history-beginning-search-forward-end
 #
 setopt complete_aliases     # aliased ls needs if file/dir completions work
 
-
-alias ls='gls --color=auto'
-alias l='gls --color=auto -la'
 
 
 alias xvn='/Applications/Xcode.app/Contents/Developer/usr/bin/svn'

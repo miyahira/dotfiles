@@ -49,11 +49,13 @@ set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
 
 
 
-set nocompatible               " be iMproved
- 
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
+" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+"
 
 Plugin 'gmarik/Vundle.vim'
 
@@ -66,4 +68,5 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/unite.vim'
 
 call vundle#end()            " required
+filetype plugin indent on    " required
 
