@@ -52,13 +52,16 @@ set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
 set nocompatible               " be iMproved
  
 
-" set rtp+=~/.vim/vundle.git/
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-haml'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'tpope/vim-fugitive'
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'tpope/vim-haml'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'Shougo/vimproc.vim'
+Plugin 'Shougo/unite.vim'
