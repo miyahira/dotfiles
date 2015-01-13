@@ -21,6 +21,7 @@
     rb = rebase
     br = branch
     dc = diff --cached
+    pop = stash pop
 
     ap = add -p
 [grep]

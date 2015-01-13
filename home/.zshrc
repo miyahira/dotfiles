@@ -6,6 +6,9 @@ source ~/.nvm/nvm.sh
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
+# export PATH=/usr/local/rvm/bin:$PATH
+export PATH=/usr/local/bin:/usr/sbin/:/sbin/:$PATH
+
 # node stuf
 export PATH=$HOME/node_modules/.bin:$PATH
 export PATH=$PATH:/usr/local/bin/node_modules/
@@ -24,10 +27,13 @@ esac
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
+
 # haskell stuf
 export PATH=~/.cabal/bin:$PATH
-
-
+export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
+export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20140702/sdk/tools
+# apportable
+export PATH=/Users/hughes/.apportable/SDK/bin:$PATH
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -100,8 +106,8 @@ bindkey "\\en" history-beginning-search-forward-end
 setopt complete_aliases     # aliased ls needs if file/dir completions work
 
 
-alias ls='ls --color=auto'
-alias l='ls --color=auto -la'
+alias ls='gls --color=auto'
+alias l='gls --color=auto -la'
 
 
 alias xvn='/Applications/Xcode.app/Contents/Developer/usr/bin/svn'
