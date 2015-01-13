@@ -1,5 +1,6 @@
 [core]
     excludesfile =~/.gitignore
+    quotepath = false
 [user]
     name = Dennis Hughes
     email = miyahira@miyahira.me
@@ -20,5 +21,7 @@
     rb = rebase
     br = branch
     dc = diff --cached
+
+    ap = add -p
 [grep]
     lineNumber = true

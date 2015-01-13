@@ -1,6 +1,10 @@
-
 export LANG=ja_JP.UTF-8
 export locale=ja_JP.UTF-8
+export SHELL=/bin/zsh
+
+source ~/.nvm/nvm.sh
+# rvm stuf
+[[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
 # node stuf
@@ -12,12 +16,17 @@ case ${OSTYPE} in
         export PATH=$HOME/.apportable/SDK/bin:$PATH
         ;;
     linux*)
+export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
 
         ;;
 esac
 
 # rvm stuf
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+
+# haskell stuf
+export PATH=~/.cabal/bin:$PATH
 
 
 
@@ -28,6 +37,7 @@ SAVEHIST=10000
 # bindkey -e
 setopt hist_ignore_dups     # ignore duplication command history list
 setopt share_history        # share command history data
+setopt ignore_eof
 setopt auto_pushd
 setopt auto_cd
 
@@ -91,6 +101,8 @@ bindkey "\\en" history-beginning-search-forward-end
 setopt complete_aliases     # aliased ls needs if file/dir completions work
 
 
-alias ls='gls --color=auto'
-alias l='gls --color=auto -la'
+alias ls='ls --color=auto'
+alias l='ls --color=auto -la'
 
+
+alias xvn='/Applications/Xcode.app/Contents/Developer/usr/bin/svn'

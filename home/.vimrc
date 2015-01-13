@@ -10,9 +10,10 @@ set autoindent
 
 filetype plugin indent on
 syntax enable
-au BufNewFile,BufRead *.ctp  setf php
-au BufNewFile,BufRead *.jade  setf jade
-au BufNewFile,BufRead *.coffee  setf coffee
+au BufNewFile,BufRead *.ctp setlocal ft=php
+au BufNewFile,BufRead *.jade setlocal ft=jade
+au BufNewFile,BufRead *.coffee setlocal ft=coffee
+au FileType haml :setlocal sw=2 sts=2
 
 
 set nowrap
@@ -57,20 +58,7 @@ call vundle#rc()
 
 
 Bundle 'gmarik/vundle'
-Bundle 'git-vim'
 Bundle 'ZenCoding.vim'
-"Bundle 'ryoppy/vim-scp-upload.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
-
-let g:vim_scp_configs = {
-\   'sample_server_1' : {
-\       'local_base_path'  : '/var/www/html/sailor/',
-\       'remote_base_path' : '/home/sailor-mbga/webapp/',
-\       'host' : 'sailor',
-\       'user' : 'sailor-mbga',
-\       'pass' : 'aaa',
-\       'port' : '22'
-\   }
-\}
