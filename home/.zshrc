@@ -6,14 +6,23 @@ source ~/.nvm/nvm.sh
 # rvm stuf
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-# export PATH=/usr/local/rvm/bin:$PATH
-export PATH=/usr/local/bin:/usr/sbin/:/sbin/:$PATH
 
 # node stuf
 export PATH=$HOME/node_modules/.bin:$PATH
 export PATH=$PATH:/usr/local/bin/node_modules/
 
+case ${OSTYPE} in
+    darwin*)
+        export PATH=$HOME/.apportable/SDK/bin:$PATH
+        ;;
+    linux*)
 export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
+
+        ;;
+esac
+
+# rvm stuf
+[[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
 # haskell stuf
