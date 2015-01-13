@@ -55,7 +55,6 @@ set nocompatible               " be iMproved
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tpope/vim-haml'
@@ -65,3 +64,6 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/unite.vim'
+
+call vundle#end()            " required
+
