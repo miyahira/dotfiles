@@ -58,7 +58,6 @@ call vundle#rc()
 
 
 Bundle 'gmarik/vundle'
-Bundle 'ZenCoding.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
