@@ -5,6 +5,9 @@ source ~/.nvm/nvm.sh
 # rvm stuf
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+# autojump
+[[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
+
 
 # export PATH=/usr/local/rvm/bin:$PATH
 export PATH=/usr/local/bin:/usr/sbin/:/sbin/:$PATH
@@ -20,10 +23,12 @@ case ${OSTYPE} in
         alias l='gls --color=auto -la'
         ;;
     linux*)
-export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
+        export PATH=$PATH:/usr/local/AWS-ElasticBeanstalk-CLI-2.6.2/eb/linux/python2.7
         alias ls='ls --color=auto'
         alias l='ls --color=auto -la'
 
+        alias ls='ls --color=auto'
+        alias l='ls --color=auto -la'
         ;;
 esac
 
